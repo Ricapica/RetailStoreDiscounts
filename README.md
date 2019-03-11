@@ -31,3 +31,17 @@ There are three main test cases files.
 *MetaUtilityTests.java* tests the core methods like calculating bills and providing the correct discounts.
 
 *BillTests.java*  simulates the whole process where bills are created to a type of customers, populated with products, then have their total price calculated. It covers different scenarios with different types of users and products. Additional tests can be done by creating new users, populated bills, and calling the calculateBillTotal from the MetaUtils class.
+
+
+
+To test the project, you need to access the three files inside the project that use the JUnit testing environment.
+The tests can be run from the command line using a standalone launch console.
+The tests can also be run on the command line by generating an executable JAR file using the IDE.
+
+The tests currently include:
+ - One user from each type and two new customers(no discount).
+ - Two grocery objects and one from every other type.
+ - A new bill for each different user.
+ 
+ The tests currently cover cases where each type of customer purchases non grocery products, affiliate customers purchasing both grocery and non-grocery items, as well as pure groceries without percentage discount to display the hundred dollar discount by itself.
+ 
